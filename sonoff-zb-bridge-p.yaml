@@ -20,7 +20,7 @@ substitutions:
 esp32:
   board: esp32dev
   framework:
-    type: esp-idf
+    type: esp-idf #firmware does not fit on arduino framework
 
 wifi:
   ssid: !secret wifi_ssid
